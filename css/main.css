@@ -1,0 +1,93 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+body {
+    background-image: url(../images/space_bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+}
+	
+.gameholder {
+	width:620px;
+	height:565px;
+	margin: 0 auto;
+	top: 30%;
+}
+
+#boxcard {
+	margin: 0 auto;
+	width: 620px;
+	z-index: 1;
+	float: left;
+}
+
+#boxcard div img {
+	width:100px;
+	-webkit-border-radius: .5em;
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+}
+
+#boxcard div {
+	float: left;
+	width: 100px;
+	height: 100px;
+    background-image: url(../images/back.jpg);
+	margin: 10px 10px;
+	border: 2px solid #000;
+	cursor: pointer;
+	-webkit-border-radius: .5em;
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,.5);
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,.5);
+	box-shadow: 0 2px 3px rgba(0,0,0,.5);
+	z-index: 2;
+}
+
+#boxcard div:hover {
+	border:2px solid #0FF;
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	-o-transition: all 1s;
+	transition: all 1s;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.5);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.5);
+	box-shadow: 0 6px 9px rgba(0,0,0,.5);	
+}
+
+#boxcard div img {
+	border: none;
+	z-index: 3;
+}
+
+.opacity {
+	opacity: .5;
+}
+
+#boxlink {
+	width: 600px;
+	margin: 50px auto;
+}
+
+.link {
+	display:inline-block;
+	color: #FFF;
+	font-family:arial;
+	font-size:15px;
+	padding:8px 20px;
+	text-decoration:none;
+	border-right: 2px solid #0FF;
+}
+
+.link:hover {	
+	color: #6CC;
+}
+
+.link:active {
+	position:relative;
+	top:1px;
+}
